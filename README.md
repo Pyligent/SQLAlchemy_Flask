@@ -29,7 +29,6 @@
 * Design a query to retrieve the last 12 months of temperature observation data (tobs).
 
 
-    ![station-histogram](Images/station-histogram.png)
 
 ### Temperature Analysis
 
@@ -41,8 +40,7 @@
 
   * Use the peak-to-peak (tmax-tmin) value as the y error bar (yerr).
 
-    ![temperature](Images/temperature.png)
-
+ 
 ### Other Analysis
 
 * Calculate the rainfall per weather station using the previous year's matching dates.
@@ -50,8 +48,7 @@
 * Calculate the daily normals. Normals are the averages for the min, avg, and max temperatures.
 
 
-    ![daily-normals](Images/daily-normals.png)
-
+ 
 - - -
 
 ## Flask Climate App
