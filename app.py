@@ -140,6 +140,8 @@ def query_tobs():
     return jsonify(tobs_lastyear_list)
 
 @app.route("/api/v1.0/<start>")
+# route example: /api/v1.0/2017-01-01
+
 def query_date_start(start):
     
     #last_date = session.query(Measurement.date).order_by(desc(Measurement.date)).first()
@@ -148,6 +150,7 @@ def query_date_start(start):
     return jsonify(start_list)
 
 @app.route("/api/v1.0/<start>/<end>")
+# route example: /api/v1.0/2017-01-01/2017-02-15
 def query_date_start_end(start,end):
     
     start_end_list = duration_temperature(start,end)
